@@ -8,7 +8,7 @@
 // In case "AUTOMATIC_PRINT = 0", binary raw data (acceleration, gyroscope, temperature) are sent via Serial when you poll the message using "m" character
 // For more info, please read the source files "MPU6050mgr.cpp" and "MPU6050mgr.h"
 
-#include "src/MPU6050mgr/MPU6050mgr.h" // IMU module (if present)
+#include <MPU6050mgr.h> // IMU module (if present)
 
 #define MIN_TIME_BETWEEN_PRINTS 1000 // time between prints, in ms
 #define AUTOMATIC_PRINT 1 // Enables automatic printing (=1). In case =0, polling printing is active
